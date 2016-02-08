@@ -183,7 +183,6 @@ chance = randint(1, 20)
 
 infoName = input("What is thy name, mighty adventurer? ")
 infoAge = input("And how old might you be? ")
-
 i = True
 while i:
     try:
@@ -308,9 +307,25 @@ print("You look around your humble shack and notice a few things you can bring w
 time.sleep(4)
 
 print("   ")
-inventory1 = input("what\'s the first item you'd like to bring along? :- water, firesticks (matches), oil or a dice. ")
+i = True
+while i
+    inventory1 = input("what\'s the first item you'd like to bring along? :- water, firesticks (matches), oil or a dice. ")
+    if "water" or "firesticks" or "matches" or "oil" or "dice" in inventory1.lower:
+        print("")
+        i = False
+    else:
+        print("That item is not in your house! Try again")
 print("   ")
 inventory2 = input("what\'s the second item you'd like to bring along? :- water, firesticks (matches), oil or a dice. ") #How to subtract strings
+i = True
+while i
+    inventory1 = input("what\'s the first item you'd like to bring along? :- water, firesticks (matches), oil or a dice. ")
+    if "water" or "firesticks" or "oil" or "matches" or "dice" in inventory2.lower:
+        print("")
+        i = False
+    else:
+        print("That item is not in your house! Try again")
+
 inventory = [inventory1, inventory2]
 print("You gladly take both the "+ inventory1 + " and the "+ inventory2)
 time.sleep(2)
