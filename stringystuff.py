@@ -2,14 +2,14 @@
 
 '''
 1. String concatenation:
-        	x=”cat”
-        	y=”dog”
+        	x="cat"
+        	y="dog"
 
         	What does x+y equal?
 
 
 Write a for loop that takes a list of words
-words=[“cat”,”dog”,”fish”,”sugar glider”,”frog”,”rabbit”]
+words=["cat","dog","fish","sugar glider","frog","rabbit"]
 makes it into one string and prints out that string.
 '''
 
